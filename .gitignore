@@ -1,0 +1,22 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.DS_Store
+
+# Model checkpoints and logs
+*.ckpt
+*.pth
+checkpoint/
+logs/
+*.log
+
+# Common temporary/data files
+*.zip
+*.tar.bz2
+*.safetensors
+# Colab specific ignores (if Google Drive is mounted)
+drive/
