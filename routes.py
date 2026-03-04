@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List
-from . import model
+import model
 
 # Pydantic models for request and response
 class PredictionRequest(BaseModel):
