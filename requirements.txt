@@ -4,3 +4,4 @@ transformers
 torch
 xgboost
 numpy
+gunicorn
